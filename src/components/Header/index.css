@@ -1,0 +1,12 @@
+/* Write your CSS here */
+.header-bg {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #cbd5e1;
+}
+
+.header-heading {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 40px;
+}

@@ -1,0 +1,46 @@
+/* Write your CSS here */
+
+.bg {
+  background-color: #475569;
+  padding: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.configuration-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-heading {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #fff;
+  margin-top: 0;
+}
+
+.checkbox-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.checkbox-input {
+  display: flex;
+  align-items: center;
+}
+
+.label-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #fff;
+  margin-left: 10px;
+  line-height: 2;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .bg {
+    padding-left: 80px;
+  }
+}
